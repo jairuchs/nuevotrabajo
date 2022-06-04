@@ -1,0 +1,203 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.body-container{
+        font-family: sans-serif;
+        background-image: url(img/El-Helado-De-La-Reina-Ester-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+header{             
+        background-image: url(/img/El-Helado-De-La-Reina-Ester-1.jpg)
+}
+
+.logo { display: flex;
+        background-color: white;
+}
+         
+.ul-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        text-decoration: none;
+        padding: 40px;
+        color: rgb(0, 0, 0);            
+}
+
+a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 32px;
+}
+
+hr{     height: 5px;   }    
+
+
+h1{     
+        font-size: 60px;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        color: rgb(0, 0, 0);
+}
+
+.subtitulo{
+        display: flex;
+        justify-content: left;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        padding: 20px;
+}
+.footer{
+        font-size: 25px;
+        color: black;
+        padding: 10px;
+        display: flex; 
+        justify-content: center;
+        border: 2px solid rgb(8, 7, 7);
+}         
+.sabores{
+        padding: 3em;
+        color: rgb(1, 32, 30);
+}
+
+.productos-sabores{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        font-size: 30px;
+        font-style: oblique;
+        
+}
+.productos-sabores li{
+        border: 1px solid black;
+        padding: 2em;
+        text-align: center;
+        list-style: none;
+        font-size: 20px;
+
+}
+
+.header-productos{
+        background-color: coral;
+        padding: 15px;
+        
+}
+.logo-productos{
+        background-color: coral;
+}
+.section-img img { 
+        padding: 5px;
+        margin: 3em;
+
+
+}
+
+.flecha{
+        width: 2%;
+}
+
+.helado{
+        width: 40%;
+        background-color: rgb(0,110,110);
+}
+.chinin-foto{
+        width: 40.5%;
+        background-color: rgb(0, 110, 110) ;
+}
+
+.main-productos{
+        background-color: aqua;
+        padding: 15px;
+}
+
+.footer-productos {
+        background-color: rgb(0, 110, 110);
+        display: flex;
+        justify-content: center;
+
+}  
+
+.h2-productos{
+        font-size: 30px;
+        padding: 3em;
+}
+
+.ul-productos{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bolder;
+}
+
+.nosotros-contenedor{
+        background-image: url(img/frutilla.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4em;
+}
+
+.section-nosotros{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        margin: 5px;
+        background-color: rgb(194, 13, 13);
+        border: 5px double rgb(7, 0, 19);
+
+}
+
+.elaboracion-img{
+        width: 80%;
+        padding: 15px;
+}
+
+.parrafo{
+        font-size: 2em;
+        padding: 6px;
+        background-color: rgb(194, 13, 13);
+}
+
+.footer-nosotros{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.copahelada-img{
+        height: 10%;
+        padding: 2em;
+
+}
+
+.ul-nosotros{
+        font-size: 3em;
+}
+
+.logo-contacto{
+        background-color: aquamarine;
+}
+
+.contacto-contenedor{
+        background-color: aquamarine;
+}
+
+.sociales{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 2em;
+        background-color: aquamarine;
+
+}
+.footer-contacto{
+        display: flex;
+        justify-content: center;
+
+}
+.footer-contacto p{
+        padding: 3em;
+        font-size: 3em;
+}
+        
