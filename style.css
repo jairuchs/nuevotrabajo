@@ -53,8 +53,9 @@ h1{
 }
 .helado-p{
         font-size: 25px;
-        color: black;
-        padding: 2rem;
+        font-style: italic;
+        padding: 4rem;
+        
 }
 .footer{
         font-size: 25px;
@@ -71,10 +72,11 @@ h1{
 
 .productos-sabores{
         display: grid;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: 200px 200px 200px 200px 200px;
         grid-template-columns: auto auto auto;
         font-size: 30px;
         font-style: oblique;
+        align-items: center;
         
 }
 .productos-sabores li{
