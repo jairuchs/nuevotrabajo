@@ -51,6 +51,11 @@ h1{
         font-size: 15px;
         padding: 20px;
 }
+.helado-p{
+        font-size: 25px;
+        color: black;
+        padding: 2rem;
+}
 .footer{
         font-size: 25px;
         color: black;
