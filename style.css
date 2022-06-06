@@ -16,6 +16,7 @@ header{
 
 .logo { display: flex;
         background-color: white;
+        margin: 1em;
     
 }
          
@@ -52,10 +53,10 @@ h1{
 
 .subtitulo{
         display: flex;
-        justify-content: left;
+        justify-content: center;
         color: rgb(0, 0, 0);
-        font-size: 15px;
-        padding: 20px;
+        font-size: 25px;
+        margin: 8.5em;
 }
 .helado-p{
         font-size: 25px;
